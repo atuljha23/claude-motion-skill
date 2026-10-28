@@ -52,6 +52,7 @@ node skills/launch-film/scripts/new_film.mjs my-film --name "Acme" --vibe keynot
 Vibes are data in `skills/launch-film/assets/vibes.json`: copy an entry and change the tempo, music sources, Google fonts, colours
 and motion. A brand kit is the same thing with your brand's colours and fonts.
 
-## Licences
+## Licence
+The skill is MIT licensed (see [LICENSE](LICENSE)). Things it fetches have their own terms:
 Music found by the search comes from [Mixkit](https://mixkit.co/license/#musicFree) under its Free Music Licence; check it fits
 your use. Store badges are Apple's and Google's official artwork and must follow their guidelines. Fonts are from Google Fonts.

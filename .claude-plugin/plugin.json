@@ -1,9 +1,22 @@
 {
   "name": "launch-film",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Beat-synced launch and promo videos for apps and products, written as code and rendered frame-exact to MP4: vibe presets, BPM-based music search, reference-video analysis.",
-  "author": { "name": "Atul Jha", "url": "https://github.com/atuljha23" },
+  "author": {
+    "name": "Atul Jha",
+    "url": "https://github.com/atuljha23"
+  },
   "homepage": "https://github.com/atuljha23/claude-motion-skill",
   "repository": "https://github.com/atuljha23/claude-motion-skill",
-  "keywords": ["video", "launch", "promo", "motion", "animation", "reels", "tiktok", "ffmpeg"]
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "launch",
+    "promo",
+    "motion",
+    "animation",
+    "reels",
+    "tiktok",
+    "ffmpeg"
+  ]
 }
