@@ -1,6 +1,13 @@
 {
   "name": "claude-motion-skill",
-  "owner": { "name": "Atul Jha", "url": "https://github.com/atuljha23" },
+  "owner": {
+    "name": "Atul Jha",
+    "url": "https://github.com/atuljha23"
+  },
+  "metadata": {
+    "description": "Claude skills for motion: beat-synced launch and promo videos written as code.",
+    "version": "0.1.0"
+  },
   "plugins": [
     {
       "name": "launch-film",
