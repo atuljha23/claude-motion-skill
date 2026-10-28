@@ -1,0 +1,457 @@
+{
+  "keynote": {
+    "name": "Keynote",
+    "line": "Apple-style product film: huge type, one accent, 3D devices with glass sweeps, a feature wall on the drop.",
+    "useFor": "product launches, new versions, hardware-feeling apps, anything that wants to feel premium and confident",
+    "bpm": [
+      115,
+      128
+    ],
+    "music": "electronic or indie pop with a clear build, a short gap and a drop; no vocals",
+    "mixkit": [
+      "electronic",
+      "tag/uplifting",
+      "tag/motivational",
+      "instrument/synth",
+      "tag/corporate"
+    ],
+    "fonts": {
+      "display": "Instrument Serif:ital@0;1",
+      "body": "Figtree:wght@400..800"
+    },
+    "displayItalicAccent": true,
+    "looks": {
+      "night": {
+        "ground": "#050607",
+        "ground2": "#15181d",
+        "ink": "#f5f5f7",
+        "sub": "#a1a1a6",
+        "acc": "#9ec5ff",
+        "accHi": "#e3eeff"
+      },
+      "day": {
+        "ground": "#fbfbfd",
+        "ground2": "#ffffff",
+        "ink": "#1d1d1f",
+        "sub": "#6e6e73",
+        "acc": "#0071e3",
+        "accHi": "#4aa3ff"
+      }
+    },
+    "motion": {
+      "spring": "type",
+      "stagger": 0.06,
+      "rise": 1.15,
+      "rot": 3,
+      "devices": "3d",
+      "transition": "rise"
+    },
+    "sfx": [
+      "whoosh",
+      "shimmer",
+      "thump",
+      "impact",
+      "riser2",
+      "tap",
+      "pop",
+      "success",
+      "end"
+    ]
+  },
+  "warm": {
+    "name": "Warm and human",
+    "line": "Friendly and encouraging: soft springs, rounded cards, a mascot or people, acoustic music.",
+    "useFor": "learning, health, wellbeing, family, community, non-profits, anything where trust and kindness matter more than hype",
+    "bpm": [
+      85,
+      112
+    ],
+    "music": "acoustic folk, ukulele, light piano or fiddle; hopeful, unhurried; a gentle lift rather than a drop",
+    "mixkit": [
+      "folk",
+      "instrument/acoustic-guitar",
+      "instrument/ukulele",
+      "instrument/piano",
+      "tag/hopeful",
+      "mood/happy"
+    ],
+    "fonts": {
+      "display": "Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700",
+      "body": "Figtree:wght@400..800"
+    },
+    "displayItalicAccent": true,
+    "looks": {
+      "morning": {
+        "ground": "#eaf1f4",
+        "ground2": "#ffffff",
+        "ink": "#1d2b36",
+        "sub": "#5a6b78",
+        "acc": "#e08a1e",
+        "accHi": "#ffbe5c"
+      },
+      "evening": {
+        "ground": "#16222b",
+        "ground2": "#223441",
+        "ink": "#f1f4f2",
+        "sub": "#a7b6bf",
+        "acc": "#ffbe5c",
+        "accHi": "#ffe0a8"
+      }
+    },
+    "motion": {
+      "spring": "soft",
+      "stagger": 0.08,
+      "rise": 0.9,
+      "rot": 1.5,
+      "devices": "flat",
+      "transition": "rise"
+    },
+    "sfx": [
+      "node",
+      "pop",
+      "chime",
+      "success",
+      "swish",
+      "tap",
+      "end"
+    ]
+  },
+  "playful": {
+    "name": "Playful pop",
+    "line": "Bouncy and bright: overshooting springs, stickers, squash and stretch, saturated colour.",
+    "useFor": "consumer and social apps, games, creator tools, fun side projects, anything that should make people smile",
+    "bpm": [
+      118,
+      140
+    ],
+    "music": "funk, upbeat pop or ukulele with handclaps; bright major key; a punchy hook from bar 1",
+    "mixkit": [
+      "funk",
+      "pop",
+      "mood/fun",
+      "mood/happy",
+      "children"
+    ],
+    "fonts": {
+      "display": "Bricolage Grotesque:opsz,wght@12..96,500..800",
+      "body": "Rubik:wght@400..700"
+    },
+    "displayItalicAccent": false,
+    "looks": {
+      "sunny": {
+        "ground": "#fff3d6",
+        "ground2": "#ffffff",
+        "ink": "#1b1f4b",
+        "sub": "#565b8a",
+        "acc": "#ff5a8a",
+        "accHi": "#ff9bb9"
+      },
+      "night": {
+        "ground": "#1b1f4b",
+        "ground2": "#2b3170",
+        "ink": "#fff3d6",
+        "sub": "#c3c6ef",
+        "acc": "#ffd23f",
+        "accHi": "#fff0a8"
+      }
+    },
+    "motion": {
+      "spring": "pop",
+      "stagger": 0.05,
+      "rise": 1.2,
+      "rot": 6,
+      "devices": "flat",
+      "transition": "pop"
+    },
+    "sfx": [
+      "pop",
+      "boing",
+      "tap",
+      "chime",
+      "whoosh",
+      "success",
+      "end"
+    ]
+  },
+  "kinetic": {
+    "name": "Kinetic type",
+    "line": "Type does everything: one word per beat, hard cuts, scale slams, very little else on screen.",
+    "useFor": "announcements, manifestos, hooks for paid social, B2B launches with a strong message, waitlists",
+    "bpm": [
+      124,
+      150
+    ],
+    "music": "hip hop, house or driving drums; strong kick on every beat",
+    "mixkit": [
+      "hip-hop",
+      "house",
+      "mood/energetic",
+      "tag/trailer",
+      "rock"
+    ],
+    "fonts": {
+      "display": "Anton",
+      "body": "Archivo:wght@400..800"
+    },
+    "displayItalicAccent": false,
+    "looks": {
+      "black": {
+        "ground": "#101010",
+        "ground2": "#1d1d1d",
+        "ink": "#f2f2f2",
+        "sub": "#9a9a9a",
+        "acc": "#ff4d2e",
+        "accHi": "#ff8a70"
+      },
+      "paper": {
+        "ground": "#f1f0ec",
+        "ground2": "#ffffff",
+        "ink": "#101010",
+        "sub": "#5c5c5c",
+        "acc": "#ff4d2e",
+        "accHi": "#ff8a70"
+      }
+    },
+    "motion": {
+      "spring": "snap",
+      "stagger": 0,
+      "rise": 0,
+      "rot": 0,
+      "devices": "none",
+      "transition": "slam"
+    },
+    "sfx": [
+      "thump",
+      "impact",
+      "tick",
+      "riser2",
+      "whoosh",
+      "end"
+    ]
+  },
+  "product": {
+    "name": "Calm product UI",
+    "line": "A screen-studio style walkthrough: the real UI rebuilt in code, a soft cursor, the camera zooms to what matters.",
+    "useFor": "SaaS, dashboards, fintech, civic and utility apps, tools where clarity and trust sell the product",
+    "bpm": [
+      100,
+      124
+    ],
+    "music": "minimal electronic or light corporate with a clear lift; nothing aggressive",
+    "mixkit": [
+      "tag/corporate",
+      "tag/technology",
+      "electronic",
+      "chillout",
+      "mood/calm"
+    ],
+    "fonts": {
+      "display": "Geist:wght@400..800",
+      "body": "Geist:wght@400..800"
+    },
+    "displayItalicAccent": false,
+    "looks": {
+      "light": {
+        "ground": "#f7f8f6",
+        "ground2": "#ffffff",
+        "ink": "#13201b",
+        "sub": "#5b6660",
+        "acc": "#2f5bea",
+        "accHi": "#7b97ff"
+      },
+      "dark": {
+        "ground": "#0f1412",
+        "ground2": "#1a211e",
+        "ink": "#eef2ef",
+        "sub": "#9aa7a0",
+        "acc": "#7b97ff",
+        "accHi": "#b9c8ff"
+      }
+    },
+    "motion": {
+      "spring": "ui",
+      "stagger": 0.05,
+      "rise": 1.0,
+      "rot": 0,
+      "devices": "flat",
+      "transition": "rise"
+    },
+    "sfx": [
+      "tap",
+      "tick",
+      "sheet",
+      "select",
+      "success",
+      "chime",
+      "whoosh",
+      "end"
+    ]
+  },
+  "cinematic": {
+    "name": "Cinematic",
+    "line": "Slow, premium and emotional: long drifting moves, letterboxed type, light falling across the product.",
+    "useFor": "hardware, luxury, travel, photography, brand films, a story with feeling",
+    "bpm": [
+      70,
+      96
+    ],
+    "music": "orchestral, piano or ambient film score; a swell rather than a drop (cut on every second beat)",
+    "mixkit": [
+      "tag/cinematic",
+      "classical",
+      "ambient",
+      "tag/hopeful",
+      "tag/trailer"
+    ],
+    "fonts": {
+      "display": "Cormorant Garamond:ital,wght@0,400;0,600;1,400;1,600",
+      "body": "Manrope:wght@400..700"
+    },
+    "displayItalicAccent": true,
+    "looks": {
+      "dusk": {
+        "ground": "#0d0b09",
+        "ground2": "#1f1b16",
+        "ink": "#efe9df",
+        "sub": "#a69c8e",
+        "acc": "#d9b47a",
+        "accHi": "#f3dcb1"
+      },
+      "linen": {
+        "ground": "#ece7df",
+        "ground2": "#f8f5f0",
+        "ink": "#1d1914",
+        "sub": "#6d6458",
+        "acc": "#8a5a2b",
+        "accHi": "#b98552"
+      }
+    },
+    "motion": {
+      "spring": "soft",
+      "stagger": 0.1,
+      "rise": 0.6,
+      "rot": 0,
+      "devices": "3d",
+      "transition": "fade"
+    },
+    "sfx": [
+      "whoosh",
+      "shimmer",
+      "impact",
+      "riser",
+      "end"
+    ]
+  },
+  "cozy": {
+    "name": "Lo-fi cozy",
+    "line": "Night-desk calm: muted colour, paper grain, hand-made marks, unhurried moves on a lo-fi beat.",
+    "useFor": "productivity, journaling, study, habit and focus apps, newsletters, reading",
+    "bpm": [
+      70,
+      92
+    ],
+    "music": "lo-fi hip hop, chillhop or soft jazz; dusty drums, warm keys",
+    "mixkit": [
+      "chillout",
+      "jazz",
+      "mood/calm",
+      "instrument/piano",
+      "hip-hop"
+    ],
+    "fonts": {
+      "display": "Young Serif",
+      "body": "Karla:wght@400..700"
+    },
+    "displayItalicAccent": false,
+    "looks": {
+      "dusk": {
+        "ground": "#2b2540",
+        "ground2": "#3d3359",
+        "ink": "#f4eefc",
+        "sub": "#bdb1d6",
+        "acc": "#ffb38a",
+        "accHi": "#ffd6bf"
+      },
+      "paper": {
+        "ground": "#efe9f5",
+        "ground2": "#fbf8fe",
+        "ink": "#2b2540",
+        "sub": "#6b6283",
+        "acc": "#d9673b",
+        "accHi": "#f29a72"
+      }
+    },
+    "motion": {
+      "spring": "soft",
+      "stagger": 0.09,
+      "rise": 0.8,
+      "rot": 1,
+      "devices": "flat",
+      "transition": "fade"
+    },
+    "sfx": [
+      "tap",
+      "key",
+      "sheet",
+      "node",
+      "chime",
+      "end"
+    ]
+  },
+  "developer": {
+    "name": "Developer",
+    "line": "For people who live in terminals: typed commands, code that highlights itself, diffs, keystrokes on the beat.",
+    "useFor": "CLIs, APIs, SDKs, open-source releases, dev tools, infrastructure",
+    "bpm": [
+      110,
+      132
+    ],
+    "music": "synthwave, electronica or minimal techno; steady and precise",
+    "mixkit": [
+      "electronic",
+      "instrument/synth",
+      "tag/technology",
+      "house"
+    ],
+    "fonts": {
+      "display": "IBM Plex Sans:wght@400;500;600;700",
+      "body": "IBM Plex Mono:wght@400;500;600"
+    },
+    "displayItalicAccent": false,
+    "looks": {
+      "terminal": {
+        "ground": "#0e1116",
+        "ground2": "#161b22",
+        "ink": "#e6edf3",
+        "sub": "#8b949e",
+        "acc": "#79c0ff",
+        "accHi": "#c2e0ff"
+      },
+      "light": {
+        "ground": "#f6f8fa",
+        "ground2": "#ffffff",
+        "ink": "#1f2328",
+        "sub": "#59636e",
+        "acc": "#0969da",
+        "accHi": "#54aeff"
+      }
+    },
+    "motion": {
+      "spring": "snap",
+      "stagger": 0.03,
+      "rise": 1.0,
+      "rot": 0,
+      "devices": "browser",
+      "transition": "rise"
+    },
+    "sfx": [
+      "key",
+      "tick",
+      "tap",
+      "select",
+      "success",
+      "whoosh",
+      "end"
+    ]
+  }
+}

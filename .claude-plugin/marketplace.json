@@ -1,0 +1,12 @@
+{
+  "name": "claude-motion-skill",
+  "owner": { "name": "Atul Jha", "url": "https://github.com/atuljha23" },
+  "plugins": [
+    {
+      "name": "launch-film",
+      "source": "./",
+      "description": "Beat-synced launch and promo videos for apps and products, written as code and rendered frame-exact to MP4.",
+      "version": "0.1.0"
+    }
+  ]
+}
