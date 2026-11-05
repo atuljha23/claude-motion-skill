@@ -5,15 +5,21 @@
     "url": "https://github.com/atuljha23"
   },
   "metadata": {
-    "description": "Claude skills for motion: beat-synced launch and promo videos written as code.",
-    "version": "0.1.1"
+    "description": "Claude skills for motion: beat-synced launch and promo videos written as code, and AI short films directed shot by shot.",
+    "version": "0.1.2"
   },
   "plugins": [
     {
       "name": "launch-film",
       "source": "./",
       "description": "Beat-synced launch and promo videos for apps and products, written as code and rendered frame-exact to MP4.",
-      "version": "0.1.1"
+      "version": "0.1.2"
+    },
+    {
+      "name": "film-director",
+      "source": "./plugins/film-director",
+      "description": "Direct a short AI film from an idea to a finished cut, with reviewer gates before every paid generation (Codex frames, Seedance shots).",
+      "version": "0.1.0"
     }
   ]
 }

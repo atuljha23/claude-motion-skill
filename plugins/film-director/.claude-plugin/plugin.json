@@ -1,0 +1,21 @@
+{
+  "name": "film-director",
+  "version": "0.1.0",
+  "description": "Direct a short AI film from an idea to a finished cut: story, shot list, palette, first/last frames (Codex first, Higgsfield fallback), Seedance shots, fresh-eyes reviewer gates before every paid generation, and post-production in ffmpeg/Python.",
+  "author": {
+    "name": "Atul Jha",
+    "url": "https://github.com/atuljha23"
+  },
+  "homepage": "https://github.com/atuljha23/claude-motion-skill",
+  "repository": "https://github.com/atuljha23/claude-motion-skill",
+  "keywords": [
+    "video",
+    "film",
+    "ai-video",
+    "seedance",
+    "codex",
+    "storyboard",
+    "animation"
+  ],
+  "license": "MIT"
+}

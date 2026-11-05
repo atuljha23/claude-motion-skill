@@ -1,6 +1,6 @@
 {
   "name": "launch-film",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Beat-synced launch and promo videos for apps and products, written as code and rendered frame-exact to MP4: vibe presets, BPM-based music search, reference-video analysis.",
   "author": {
     "name": "Atul Jha",

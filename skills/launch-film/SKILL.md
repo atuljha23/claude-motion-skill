@@ -33,6 +33,12 @@ Then ask, with sensible defaults so the user can just accept:
 - Otherwise take the vibe's direction from `references/vibes.md`; brand colours and fonts override the vibe's.
 - Write down: thesis line, hook (readable on frame 0), 2–4 features to show, the payoff, the end card. Every claim true today
   (`references/product.md`).
+- Turn it into a beat list and apply the story check and shot-design rules in `references/direction-and-review.md`: the film in one
+  sentence, the hook's second, a new angle or scale every beat, what moves in each beat, focal points on the 38%/62% lines, a per-scene
+  palette table checked in greyscale. Then have a **fresh subagent** review the beat list alone (prompt in that file) before scaffolding.
+- Filmed-looking AI shots wanted (people, places, real objects)? Follow `references/ai-shots.md`: ask whether Codex is available
+  for the first/last frames (always preferred; Higgsfield only if the user says no Codex and confirms Higgsfield), seven-part
+  prompt, pre-submit review, cost quote before every paid generation.
 
 ### 3. Music
 - User's track: `node scripts/beat.mjs track.mp3`.
@@ -54,7 +60,8 @@ timers or randomness; one event per beat; frame 0 is the poster.
 ### 5. Show before the long render
 Render 5–9 key stills (`node tools/render.mjs stills --at ... --name ...`), look at them yourself, fix, then show the user the stills
 and the beat map (an Artifact page with the stills and, if useful, two or three look variants side by side). Run `probe` contact sheets
-and fix anything cramped, overlapping, peeking in or frozen. Get a go-ahead on direction before the full render.
+and fix anything cramped, overlapping, peeking in or frozen. A fresh subagent reviews the stills + probe sheets
+(`references/direction-and-review.md`) and must say PASS. Get a go-ahead on direction before the full render.
 
 ### 6. Sound, draft, final
 ```
@@ -63,12 +70,15 @@ node tools/render.mjs draft && node tools/mix.mjs --video out/main/video-30.mp4 
 node tools/render.mjs full --sub 4 --jobs 4 && node tools/mix.mjs --video out/main/video-60.mp4 --out out/<slug>.mp4
 ```
 Run the full render in the background (minutes) and keep working. Verify the final: ffprobe (size, 60 fps, duration, audio),
-`ebur128` (≈ -14 LUFS, peak ≤ -1 dBTP), and a strip of frames from the encoded file at fast moments.
+`ebur128` (≈ -14 LUFS, peak ≤ -1 dBTP), and a strip of frames from the encoded file at fast moments. Then a fresh subagent
+watches only the encoded file as a first-time viewer (final review prompt in `references/direction-and-review.md`); fix hard faults.
+New renders get new filenames; never overwrite earlier versions.
 
 ### 7. Deliver
 Give the file path, length, format and loudness; the music credit and licence; anything to wait for before posting (store not live
 in a region, a feature not shipped on one platform); how to re-render another look (`--variant`) or shape. Keep `BEATMAP.md` current
-(beat map, rebuild commands, honesty notes with sources) so the next session or person can change it. If the user can't hear-check
+(beat map, rebuild commands, honesty notes with sources, and a short retro: what worked, what broke, the fix) so the next
+session or person can change it. If the user can't hear-check
 in the session, ask them to listen to the mix, especially voice level.
 
 ## Principles that made earlier films work
@@ -77,3 +87,5 @@ in the session, ask them to listen to the mix, especially voice level.
 - One accent colour, big type, generous space, never a frozen frame.
 - Sounds are synthesised in the song's key and levelled against the music under each one; voices duck the music.
 - Show stills before rendering; measure before claiming (tempo, loudness, frame checks); say plainly what you couldn't check.
+- Catch errors at the cheapest stage: words before stills, stills before renders, renders before anything paid. Reviewers are fresh
+  subagents that only see the artifact, never the conversation.

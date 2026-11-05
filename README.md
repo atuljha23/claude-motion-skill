@@ -52,6 +52,17 @@ node skills/launch-film/scripts/new_film.mjs my-film --name "Acme" --vibe keynot
 Vibes are data in `skills/launch-film/assets/vibes.json`: copy an entry and change the tempo, music sources, Google fonts, colours
 and motion. A brand kit is the same thing with your brand's colours and fonts.
 
+## Also in this marketplace: film-director
+A skill for directing a short **AI film** from a rough idea to a finished cut. Claude acts as the director: it writes the story, the
+shot list, the colour palette and every prompt. Codex draws the first and last frame of each shot (Higgsfield if you don't have Codex),
+Seedance animates between them, and ffmpeg/Python do the edit. A fresh reviewer agent checks the story, the frames and every video
+prompt before any paid generation, and Claude quotes the cost and waits for your yes.
+```
+/plugin install film-director@claude-motion-skill
+```
+Or copy `plugins/film-director/skills/film-director` to `~/.claude/skills/film-director`.
+Adapted from [Eian's Claude Code/Codex + Seedance workflow](https://x.com/eianlu/article/2118317430665613741).
+
 ## Licence
 The skill is MIT licensed (see [LICENSE](LICENSE)). Things it fetches have their own terms:
 Music found by the search comes from [Mixkit](https://mixkit.co/license/#musicFree) under its Free Music Licence; check it fits
