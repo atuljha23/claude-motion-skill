@@ -63,6 +63,16 @@ prompt before any paid generation, and Claude quotes the cost and waits for your
 Or copy `plugins/film-director/skills/film-director` to `~/.claude/skills/film-director`.
 Adapted from [Eian's Claude Code/Codex + Seedance workflow](https://x.com/eianlu/article/2118317430665613741).
 
+## Also in this marketplace: famous-reel-editor
+Turns one raw talking-head clip (vertical or landscape 4K) into a finished **9:16 reel**: the clean take of every sentence, tight
+silences, one-word karaoke captions, animated motion-graphics cards in one themeable accent colour, music, sound effects and 1–2 AI
+B-roll cutaways. By Riccardo (Martes AI), with additions.
+```
+/plugin install famous-reel-editor@claude-motion-skill
+```
+Needs ffmpeg, Python and Node; transcription uses an ElevenLabs or Groq key, or free local Whisper (see its SETUP.md). The bundled
+music track is silent: bring your own licensed track. Montserrat is under the SIL Open Font Licence (`assets/fonts/OFL.txt`).
+
 ## Licence
 The skill is MIT licensed (see [LICENSE](LICENSE)). Things it fetches have their own terms:
 Music found by the search comes from [Mixkit](https://mixkit.co/license/#musicFree) under its Free Music Licence; check it fits

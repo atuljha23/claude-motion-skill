@@ -1,0 +1,9 @@
+{
+  "name": "famous-reel-editor",
+  "version": "0.1.0",
+  "description": "Edit a raw talking-head clip into a finished 9:16 reel: clean-take EDL, silence trimming, one-word karaoke captions, animated motion-graphics cards in a themeable accent, music, SFX, and 1-2 AI B-roll cutaways (Codex-first frames, Seedance via Higgsfield).",
+  "author": { "name": "Riccardo (Martes AI) and Atul Jha", "url": "https://github.com/atuljha23" },
+  "homepage": "https://github.com/atuljha23/claude-motion-skill",
+  "repository": "https://github.com/atuljha23/claude-motion-skill",
+  "keywords": ["video", "reels", "shorts", "tiktok", "captions", "motion-graphics", "b-roll", "ffmpeg"]
+}
