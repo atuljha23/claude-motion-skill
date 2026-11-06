@@ -25,7 +25,7 @@
       "name": "famous-reel-editor",
       "source": "./plugins/famous-reel-editor",
       "description": "Turn a raw talking-head clip into a styled 9:16 reel with karaoke captions, motion-graphics cards, music, SFX and AI B-roll.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
